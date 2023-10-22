@@ -20,13 +20,13 @@ void fun_push(stack_t **head, unsigned int count)
 		if (flag == 1)
 		{ fprintf(stderr, "L%d: usage: push integer\n", count);
 			fclose(b.file);
-			free(b.content);
+			free(b.cont);
 			fun_free_stack(*head);
 			exit(EXIT_FAILURE); }}
 	else
 	{ fprintf(stderr, "L%d: usage: push integer\n", count);
 		fclose(b.file);
-		free(b.content);
+		free(b.cont);
 		fun_free_stack(*head);
 		exit(EXIT_FAILURE); }
 	n = atoi(b.arg);
