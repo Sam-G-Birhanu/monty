@@ -1,3 +1,4 @@
+#include "monty.h"
 void fun_swap(stack_t **head, unsigned int counter) {
     if (*head == NULL || (*head)->next == NULL) {
         fprintf(stderr, "L%d: can't swap, stack too short\n", counter);
