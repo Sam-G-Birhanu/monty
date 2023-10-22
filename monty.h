@@ -54,11 +54,11 @@ void cleanup_and_exit(stack_t **head, int status);
 void fun_addnode(stack_t **head, int n);
 void fun_addqueue(stack_t **head, int n);
 void fun_free_stack(stack_t *head);
-int fun_exec(char *content, stack_t **head, unsigned int counter, FILE *file);
-void fun_pop(stack_t **head, unsigned int counter);
-void fun_swap(stack_t **head, unsigned int counter);
-void fun_add(stack_t **head, unsigned int counter);
-void fun_nop(stack_t **head, unsigned int counter);
+int fun_exec(char *content, stack_t **head, unsigned int count, FILE *file);
+void fun_pop(stack_t **head, unsigned int count);
+void fun_swap(stack_t **head, unsigned int count);
+void fun_add(stack_t **head, unsigned int count);
+void fun_nop(stack_t **head, unsigned int count);
 
 
 #endif
