@@ -5,7 +5,7 @@
  * @counter: line_number
  * Return: no return
 */
-void f_queue(stack_t **head, unsigned int counter)
+void fun_queue(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
@@ -18,7 +18,7 @@ void f_queue(stack_t **head, unsigned int counter)
  * @head: head of the stack
  * Return: no return
 */
-void addqueue(stack_t **head, int n)
+void fun_addqueue(stack_t **head, int n)
 {
 	stack_t *new_node, *aux;
 
