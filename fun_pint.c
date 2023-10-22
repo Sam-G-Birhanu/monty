@@ -9,11 +9,11 @@ void fun_pint(stack_t **head, unsigned int counter) {
 }
 
 void cleanup_and_exit(stack_t **head, int status) {
-    if (bus.file) {
-        fclose(bus.file);
+    if (b.file) {
+        fclose(b.file);
     }
-    if (bus.content) {
-        free(bus.content);
+    if (b.content) {
+        free(b.content);
     }
     fun_free_stack(*head);
     exit(status);
