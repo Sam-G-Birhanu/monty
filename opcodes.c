@@ -42,6 +42,12 @@ void fun_push(stack_t **head, unsigned int count)
 	else
 		fun_addqueue(head, n);
 }
+/**
+ * fun_pop - pops elts
+ * @head: stack head
+ * @count: stack counter
+ * Return: return none
+ */
 
 void fun_pop(stack_t **head, unsigned int count)
 {
@@ -56,6 +62,12 @@ void fun_pop(stack_t **head, unsigned int count)
 	*head = (*head)->next;
 	free(temp);
 }
+/**
+ * fun_swap - swaps
+ * @head: stack head
+ * @count: stack counter
+ * Return: void
+ */
 
 void fun_swap(stack_t **head, unsigned int count)
 {
@@ -91,7 +103,12 @@ void fun_pall(stack_t **head, unsigned int count)
 		h = h->next;
 	}
 }
-
+/**
+ * fun_nop - nop
+ * @head: stack head
+ * @counter: stack counter
+ * Return: void
+ */
 void fun_nop(stack_t **head, unsigned int counter)
 {
 	(void)head;
