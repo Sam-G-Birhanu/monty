@@ -12,8 +12,8 @@ void cleanup_and_exit(stack_t **head, int status) {
     if (b.file) {
         fclose(b.file);
     }
-    if (b.content) {
-        free(b.content);
+    if (b.cont) {
+        free(b.cont);
     }
     fun_free_stack(*head);
     exit(status);
