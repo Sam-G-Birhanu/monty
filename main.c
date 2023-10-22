@@ -36,11 +36,11 @@ int main(int argc, char *argv[])
 		counter++;
 		if (read_line > 0)
 		{
-			execute(content, &stack, counter, file);
+			fun_execute(content, &stack, counter, file);
 		}
 		free(content);
 	}
-	free_stack(stack);
+	fun_free_stack(stack);
 	fclose(file);
 return (0);
 }
