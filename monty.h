@@ -37,14 +37,14 @@ typedef struct instruction_s
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
-typedef struct bus_s
+typedef struct b_s
 {
 	char *arg;
 	FILE *file;
 	char *content;
 	int lifi;
-}  bus_t;
-extern bus_t bus;
+}  b_t;
+extern b_t b;
 /** void fun_push(stack_t **head, unsigned int number); **/
 void fun_push(stack_t **head, unsigned int count);
 void fun_pall(stack_t **head, unsigned int number);
