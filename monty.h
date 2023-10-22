@@ -47,6 +47,7 @@ typedef struct bus_s
 extern bus_t bus;
 void fun_push(stack_t **head, unsigned int number);
 void fun_pall(stack_t **head, unsigned int number);
+void fun_pint(stack_t **head, unsigned int number);
 
 void cleanup_and_exit(stack_t **head, int status);
 void fun_addnode(stack_t **head, int n);
