@@ -45,7 +45,8 @@ typedef struct bus_s
 	int lifi;
 }  bus_t;
 extern bus_t bus;
-void fun_push(stack_t **head, unsigned int number);
+/** void fun_push(stack_t **head, unsigned int number); **/
+void fun_push(stack_t **head, unsigned int count);
 void fun_pall(stack_t **head, unsigned int number);
 void fun_pint(stack_t **head, unsigned int number);
 
