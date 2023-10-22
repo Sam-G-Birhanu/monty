@@ -45,11 +45,11 @@ typedef struct bus_s
 	int lifi;
 }  bus_t;
 extern bus_t bus;
-void f_push(stack_t **head, unsigned int number);
-void f_pall(stack_t **head, unsigned int number);
-void addnode(stack_t **head, int n);
-void addqueue(stack_t **head, int n);
-void free_stack(stack_t *head);
-int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
+void fun_push(stack_t **head, unsigned int number);
+void fun_pall(stack_t **head, unsigned int number);
+void fun_addnode(stack_t **head, int n);
+void fun_addqueue(stack_t **head, int n);
+void fun_free_stack(stack_t *head);
+int fun_execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 
 #endif
