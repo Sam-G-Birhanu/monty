@@ -2,10 +2,10 @@
 /**
  * fun_push - add node to the stack
  * @head: stack head
- * @counter: line_number
+ * @count: line_number
  * Return: no return
 */
-void fun_push(stack_t **head, unsigned int counter)
+void fun_push(stack_t **head, unsigned int count)
 {
 	int n, j = 0, flag = 0;
 
