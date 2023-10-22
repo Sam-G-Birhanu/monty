@@ -2,13 +2,13 @@
 /**
  * fun_pall - prints the stack
  * @head: stack head
- * @counter: no used
+ * @count: no used
  * Return: no return
 */
-void fun_pall(stack_t **head, unsigned int counter)
+void fun_pall(stack_t **head, unsigned int count)
 {
 	stack_t *h;
-	(void)counter;
+	(void)count;
 
 	h = *head;
 	if (h == NULL)
