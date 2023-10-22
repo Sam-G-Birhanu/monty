@@ -13,6 +13,7 @@ int fun_exec(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"push", fun_push}, {"pall", fun_pall}, {"pint", fun_pint},
 	{"pop", fun_pop},
 	{"swap", fun_swap},
+	{"add", fun_add},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
