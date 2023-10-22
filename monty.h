@@ -41,7 +41,7 @@ typedef struct b_s
 {
 	char *arg;
 	FILE *file;
-	char *content;
+	char *cont;
 	int lifi;
 }  b_t;
 extern b_t b;
@@ -54,7 +54,7 @@ void cleanup_and_exit(stack_t **head, int status);
 void fun_addnode(stack_t **head, int n);
 void fun_addqueue(stack_t **head, int n);
 void fun_free_stack(stack_t *head);
-int fun_exec(char *content, stack_t **head, unsigned int count, FILE *file);
+int fun_exec(char *cont, stack_t **head, unsigned int count, FILE *file);
 void fun_pop(stack_t **head, unsigned int count);
 void fun_swap(stack_t **head, unsigned int count);
 void fun_add(stack_t **head, unsigned int count);
