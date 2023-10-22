@@ -80,3 +80,9 @@ void fun_pall(stack_t **head, unsigned int count)
 		h = h->next;
 	}
 }
+
+void fun_nop(stack_t **head, unsigned int counter)
+{
+    (void)head;
+    (void)counter;
+}
