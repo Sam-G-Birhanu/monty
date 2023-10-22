@@ -1,4 +1,11 @@
 #include "monty.h"
+/**
+ * fun_pint - prints in order
+ * @head: stack head
+ * @count: keep count
+ * Return: none
+ */
+
 void fun_pint(stack_t **head, unsigned int count)
 {
 	if (*head == NULL)
@@ -8,6 +15,12 @@ void fun_pint(stack_t **head, unsigned int count)
 	}
 	printf("%d\n", (*head)->n);
 }
+/**
+ * cleanup_and_exit - cleans
+ * @head: stck head
+ * @status: int status
+ * Return: none
+ */
 
 void cleanup_and_exit(stack_t **head, int status)
 {

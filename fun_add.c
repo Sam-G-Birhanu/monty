@@ -1,5 +1,10 @@
 #include "monty.h"
-
+/**
+ * fun_add - adds
+ * @head: stack head
+ * @count: counts
+ * Return: none
+ */
 void fun_add(stack_t **head, unsigned int count)
 {
 	stack_t *temp;
