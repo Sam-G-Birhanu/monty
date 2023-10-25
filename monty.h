@@ -64,7 +64,7 @@ void fun_mul(stack_t **head, unsigned int counter);
 void fun_mod(stack_t **head, unsigned int counter);
 void fun_nop(stack_t **head, unsigned int count);
 void fun_pchar(stack_t **head, unsigned int counter);
-void fun_pstr(stack_t **head, unsigned int counter);
+void fun_pstr(stack_t **head, unsigned int count);
 void fun_rotl(stack_t **head, unsigned int counter);
 void fun_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
 void addnode(stack_t **head, int n);
