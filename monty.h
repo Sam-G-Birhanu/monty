@@ -58,6 +58,7 @@ int fun_exec(char *cont, stack_t **head, unsigned int count, FILE *file);
 void fun_pop(stack_t **head, unsigned int count);
 void fun_swap(stack_t **head, unsigned int count);
 void fun_add(stack_t **head, unsigned int count);
+void f_sub(stack_t **head, unsigned int counter);
 void fun_nop(stack_t **head, unsigned int count);
 
 
