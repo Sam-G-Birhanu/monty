@@ -19,7 +19,13 @@ int fun_exec(char *content, stack_t **stack, unsigned int count, FILE *file)
 	{"mul", fun_mul},
 	{"mod", fun_mod},
 	{"nop", fun_nop},
-				{NULL, NULL}
+	{"pchar", f_pchar},
+	{"pstr", f_pstr},
+	{"rotl", f_rotl},
+	{"rotr", f_rotr},
+	{"queue", f_queue},
+	{"stack", f_stack},
+	{NULL, NULL}
 				};
 	unsigned int i = 0;
 	char *op;
