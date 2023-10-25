@@ -59,6 +59,10 @@ void fun_pop(stack_t **head, unsigned int count);
 void fun_swap(stack_t **head, unsigned int count);
 void fun_add(stack_t **head, unsigned int count);
 void fun_sub(stack_t **head, unsigned int counter);
+void fun_div(stack_t **head, unsigned int counter);
+void fun_mul(stack_t **head, unsigned int counter);
+void fun_mod(stack_t **head, unsigned int counter);
+
 void fun_nop(stack_t **head, unsigned int count);
 
 
