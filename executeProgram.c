@@ -14,6 +14,7 @@ int fun_exec(char *content, stack_t **stack, unsigned int count, FILE *file)
 	{"pop", fun_pop},
 	{"swap", fun_swap},
 	{"add", fun_add},
+	{"sub", fun_sub},
 	{"nop", fun_nop},
 				{NULL, NULL}
 				};
