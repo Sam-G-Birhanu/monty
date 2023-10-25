@@ -16,8 +16,8 @@ void fun_sub(stack_t **head, unsigned int counter)
 	if (nodes < 2)
 	{
 		fprintf(stderr, "L%d: can't sub, stack too short\n", counter);
-		fclose(bus.file);
-		free(bus.content);
+		fclose(b.file);
+		free(b.content);
 		free_stack(*head);
 		exit(EXIT_FAILURE);
 	}
